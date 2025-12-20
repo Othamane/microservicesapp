@@ -19,11 +19,11 @@ spring:
     gateway:
       routes:
         - id: book
-          uri: lb://book
+          uri: lb://book-service
           predicates:
             - Path=/api/books/**
         - id: user
-          uri: lb://user
+          uri: lb://user-service
           predicates:
             - Path=/api/users/**
 
