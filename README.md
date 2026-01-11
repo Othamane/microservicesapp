@@ -1,6 +1,7 @@
 # Système de Gestion de Bibliothèque - Architecture Microservices
 
-**Auteur :** REDA IKARNADE  
+**Auteur :** NOURDDINE Othmane  
+**Email :** onourddine@insea.ac.ma  
 **Formation :** M2SI - INSEA Rabat  
 **Date :** Janvier 2026  
 
@@ -100,7 +101,7 @@ docker --version  # Docker 20.10+
 
 ### Build
 ```bash
-git clone https://github.com/redax255/microservicesapp.git
+git clone https://github.com/Othamane/microservicesapp.git
 cd microservicesapp
 
 # Compilation
@@ -123,8 +124,8 @@ docker-compose ps
 ### Test 1 : Créer utilisateur
 ```powershell
 $user = @{
-    name  = "REDA IKARNADE"
-    email = "reda@insea.ac.ma"
+    name  = "NOURDDINE Othmane"
+    email = "onourddine@insea.ac.ma"
 }
 
 Invoke-RestMethod -Uri "http://localhost:8082/users" -Method POST -ContentType "application/json" -Body ($user | ConvertTo-Json)
@@ -218,6 +219,4 @@ L'application démontre :
 
 ## Contact
 
-**REDA IKARNADE**  
-Email: reda@insea.ac.ma  
-INSEA - Rabat, Maroc
+**NOURDDINE Othmane**  
