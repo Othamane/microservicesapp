@@ -1,0 +1,6 @@
+book/target/*
+emprunter/target/*
+user/target/*
+eurika/target/*
+gateway/target/*
+notification-service/target/*
